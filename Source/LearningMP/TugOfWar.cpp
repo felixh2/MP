@@ -31,7 +31,7 @@ float UTugOfWar::InitTugOfWar(TArray<float> EnemiesHP, TArray<float> Weights, fl
 
 		MeanValue = CalcMeanValue(EnemiesHP, PlayersInsenity);
 
-		OutMaxRight = X1 / 2;
+		OutMaxRight = X1 / Denominator;
 		OutMinLeft = -OutMaxRight;
 		InitCompleted = true;
 		
